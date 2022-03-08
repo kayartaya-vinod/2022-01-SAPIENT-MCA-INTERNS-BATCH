@@ -1,0 +1,20 @@
+GET /api/departments/
+Accept: application/json
+Host: localhost:8080
+
+####
+GET /api/departments/20
+Accept: application/json
+Host: localhost:8080
+
+####
+GET /api/employees
+Accept: application/json
+Host: localhost:8000
+
+####
+GET /api/employees/7654
+Accept: application/json
+Host: localhost:8080
+
+####

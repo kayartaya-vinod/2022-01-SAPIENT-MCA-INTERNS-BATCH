@@ -1,0 +1,316 @@
+[TRACE] 2022-02-03 10:50:38,572 main            com.sapient.tests.CalculatorAddMethodTests [  24] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 10:50:38,578 main            com.sapient.tests.CalculatorAddMethodTests [  46] CalculatorAddMethodTests.shouldAddMoreThanTwoNumbers() called
+[TRACE] 2022-02-03 10:50:38,583 main            com.sapient.Calculator [  26] input is "10, 90, 50, 30, 20"
+[TRACE] 2022-02-03 10:50:38,589 main            com.sapient.tests.CalculatorAddMethodTests [  31] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 10:50:38,598 main            com.sapient.tests.CalculatorAddMethodTests [  24] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 10:50:38,599 main            com.sapient.tests.CalculatorAddMethodTests [  81] CalculatorAddMethodTests.shouldThrowInputMismatchException() called
+[TRACE] 2022-02-03 10:50:38,600 main            com.sapient.Calculator [  26] input is "10, 20, vinod, kumar"
+[TRACE] 2022-02-03 10:50:38,601 main            com.sapient.tests.CalculatorAddMethodTests [  31] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 10:50:38,604 main            com.sapient.tests.CalculatorAddMethodTests [  24] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 10:50:38,604 main            com.sapient.tests.CalculatorAddMethodTests [  64] CalculatorAddMethodTests.shouldAddCombinationOfPositiveAndNegativeNumbers() called
+[TRACE] 2022-02-03 10:50:38,605 main            com.sapient.Calculator [  26] input is "-10, -20, 30, 2"
+[TRACE] 2022-02-03 10:50:38,605 main            com.sapient.tests.CalculatorAddMethodTests [  31] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 10:50:38,608 main            com.sapient.tests.CalculatorAddMethodTests [  24] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 10:50:38,608 main            com.sapient.tests.CalculatorAddMethodTests [  36] CalculatorAddMethodTests.shouldAddTwoNumbers() called
+[TRACE] 2022-02-03 10:50:38,609 main            com.sapient.Calculator [  26] input is "10,20"
+[TRACE] 2022-02-03 10:50:38,609 main            com.sapient.tests.CalculatorAddMethodTests [  31] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 10:50:38,612 main            com.sapient.tests.CalculatorAddMethodTests [  24] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 10:50:38,613 main            com.sapient.tests.CalculatorAddMethodTests [  56] CalculatorAddMethodTests.shouldAddNegativeNumbers() called
+[TRACE] 2022-02-03 10:50:38,613 main            com.sapient.Calculator [  26] input is "-10, -20, -30"
+[TRACE] 2022-02-03 10:50:38,614 main            com.sapient.tests.CalculatorAddMethodTests [  31] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 10:50:38,621 main            com.sapient.tests.CalculatorAddMethodTests [  24] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 10:50:38,624 main            com.sapient.tests.CalculatorAddMethodTests [  72] CalculatorAddMethodTests.shouldThrowNullPointerException() called
+[TRACE] 2022-02-03 10:50:38,626 main            com.sapient.Calculator [  26] input is "null"
+[TRACE] 2022-02-03 10:50:38,626 main            com.sapient.tests.CalculatorAddMethodTests [  31] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 10:51:54,603 main            com.sapient.tests.CalculatorAddMethodTests [  24] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 10:51:54,607 main            com.sapient.tests.CalculatorAddMethodTests [  46] CalculatorAddMethodTests.shouldAddMoreThanTwoNumbers() called
+[TRACE] 2022-02-03 10:51:54,612 main            com.sapient.Calculator [  26] input is "10, 90, 50, 30, 20"
+[TRACE] 2022-02-03 10:51:54,616 main            com.sapient.tests.CalculatorAddMethodTests [  31] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 10:51:54,624 main            com.sapient.tests.CalculatorAddMethodTests [  24] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 10:51:54,625 main            com.sapient.tests.CalculatorAddMethodTests [  81] CalculatorAddMethodTests.shouldThrowInputMismatchException() called
+[TRACE] 2022-02-03 10:51:54,626 main            com.sapient.Calculator [  26] input is "10, 20, vinod, kumar"
+[TRACE] 2022-02-03 10:51:54,626 main            com.sapient.tests.CalculatorAddMethodTests [  31] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 10:51:54,628 main            com.sapient.tests.CalculatorAddMethodTests [  24] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 10:51:54,628 main            com.sapient.tests.CalculatorAddMethodTests [  64] CalculatorAddMethodTests.shouldAddCombinationOfPositiveAndNegativeNumbers() called
+[TRACE] 2022-02-03 10:51:54,628 main            com.sapient.Calculator [  26] input is "-10, -20, 30, 2"
+[TRACE] 2022-02-03 10:51:54,629 main            com.sapient.tests.CalculatorAddMethodTests [  31] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 10:51:54,631 main            com.sapient.tests.CalculatorAddMethodTests [  24] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 10:51:54,631 main            com.sapient.tests.CalculatorAddMethodTests [  36] CalculatorAddMethodTests.shouldAddTwoNumbers() called
+[TRACE] 2022-02-03 10:51:54,631 main            com.sapient.Calculator [  26] input is "10,20"
+[TRACE] 2022-02-03 10:51:54,632 main            com.sapient.tests.CalculatorAddMethodTests [  31] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 10:51:54,634 main            com.sapient.tests.CalculatorAddMethodTests [  24] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 10:51:54,635 main            com.sapient.tests.CalculatorAddMethodTests [  56] CalculatorAddMethodTests.shouldAddNegativeNumbers() called
+[TRACE] 2022-02-03 10:51:54,635 main            com.sapient.Calculator [  26] input is "-10, -20, -30"
+[TRACE] 2022-02-03 10:51:54,635 main            com.sapient.tests.CalculatorAddMethodTests [  31] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 10:51:54,645 main            com.sapient.tests.CalculatorAddMethodTests [  24] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 10:51:54,646 main            com.sapient.tests.CalculatorAddMethodTests [  72] CalculatorAddMethodTests.shouldThrowNullPointerException() called
+[TRACE] 2022-02-03 10:51:54,646 main            com.sapient.Calculator [  26] input is "null"
+[TRACE] 2022-02-03 10:51:54,647 main            com.sapient.tests.CalculatorAddMethodTests [  31] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 10:52:45,287 main            com.sapient.tests.CalculatorAddMethodTests [  24] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 10:52:45,293 main            com.sapient.tests.CalculatorAddMethodTests [  46] CalculatorAddMethodTests.shouldAddMoreThanTwoNumbers() called
+[TRACE] 2022-02-03 10:52:45,298 main            com.sapient.Calculator [  26] input is "10, 90, 50, 30, 20"
+[TRACE] 2022-02-03 10:52:45,304 main            com.sapient.tests.CalculatorAddMethodTests [  31] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 10:52:45,315 main            com.sapient.tests.CalculatorAddMethodTests [  24] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 10:52:45,315 main            com.sapient.tests.CalculatorAddMethodTests [  81] CalculatorAddMethodTests.shouldThrowInputMismatchException() called
+[TRACE] 2022-02-03 10:52:45,317 main            com.sapient.Calculator [  26] input is "10, 20, vinod, kumar"
+[TRACE] 2022-02-03 10:52:45,317 main            com.sapient.tests.CalculatorAddMethodTests [  31] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 10:52:45,319 main            com.sapient.tests.CalculatorAddMethodTests [  24] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 10:52:45,320 main            com.sapient.tests.CalculatorAddMethodTests [  64] CalculatorAddMethodTests.shouldAddCombinationOfPositiveAndNegativeNumbers() called
+[TRACE] 2022-02-03 10:52:45,320 main            com.sapient.Calculator [  26] input is "-10, -20, 30, 2"
+[TRACE] 2022-02-03 10:52:45,321 main            com.sapient.tests.CalculatorAddMethodTests [  31] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 10:52:45,323 main            com.sapient.tests.CalculatorAddMethodTests [  24] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 10:52:45,324 main            com.sapient.tests.CalculatorAddMethodTests [  36] CalculatorAddMethodTests.shouldAddTwoNumbers() called
+[TRACE] 2022-02-03 10:52:45,324 main            com.sapient.Calculator [  26] input is "10,20"
+[TRACE] 2022-02-03 10:52:45,325 main            com.sapient.tests.CalculatorAddMethodTests [  31] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 10:52:45,327 main            com.sapient.tests.CalculatorAddMethodTests [  24] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 10:52:45,328 main            com.sapient.tests.CalculatorAddMethodTests [  56] CalculatorAddMethodTests.shouldAddNegativeNumbers() called
+[TRACE] 2022-02-03 10:52:45,328 main            com.sapient.Calculator [  26] input is "-10, -20, -30"
+[TRACE] 2022-02-03 10:52:45,329 main            com.sapient.tests.CalculatorAddMethodTests [  31] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 10:52:45,338 main            com.sapient.tests.CalculatorAddMethodTests [  24] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 10:52:45,339 main            com.sapient.tests.CalculatorAddMethodTests [  72] CalculatorAddMethodTests.shouldThrowNullPointerException() called
+[TRACE] 2022-02-03 10:52:45,340 main            com.sapient.Calculator [  26] input is "null"
+[TRACE] 2022-02-03 10:52:45,340 main            com.sapient.tests.CalculatorAddMethodTests [  31] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 10:54:13,268 main            com.sapient.tests.CalculatorAddMethodTests [  24] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 10:54:13,273 main            com.sapient.tests.CalculatorAddMethodTests [  46] CalculatorAddMethodTests.shouldAddMoreThanTwoNumbers() called
+[TRACE] 2022-02-03 10:54:13,277 main            com.sapient.Calculator [  26] input is "10, 90, 50, 30, 20"
+[TRACE] 2022-02-03 10:54:13,283 main            com.sapient.tests.CalculatorAddMethodTests [  31] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 10:54:13,293 main            com.sapient.tests.CalculatorAddMethodTests [  24] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 10:54:13,293 main            com.sapient.tests.CalculatorAddMethodTests [  81] CalculatorAddMethodTests.shouldThrowInputMismatchException() called
+[TRACE] 2022-02-03 10:54:13,295 main            com.sapient.Calculator [  26] input is "10, 20, vinod, kumar"
+[TRACE] 2022-02-03 10:54:13,295 main            com.sapient.tests.CalculatorAddMethodTests [  31] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 10:54:13,297 main            com.sapient.tests.CalculatorAddMethodTests [  24] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 10:54:13,298 main            com.sapient.tests.CalculatorAddMethodTests [  64] CalculatorAddMethodTests.shouldAddCombinationOfPositiveAndNegativeNumbers() called
+[TRACE] 2022-02-03 10:54:13,298 main            com.sapient.Calculator [  26] input is "-10, -20, 30, 2"
+[TRACE] 2022-02-03 10:54:13,298 main            com.sapient.tests.CalculatorAddMethodTests [  31] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 10:54:13,301 main            com.sapient.tests.CalculatorAddMethodTests [  24] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 10:54:13,301 main            com.sapient.tests.CalculatorAddMethodTests [  36] CalculatorAddMethodTests.shouldAddTwoNumbers() called
+[TRACE] 2022-02-03 10:54:13,302 main            com.sapient.Calculator [  26] input is "10,20"
+[TRACE] 2022-02-03 10:54:13,302 main            com.sapient.tests.CalculatorAddMethodTests [  31] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 10:54:13,305 main            com.sapient.tests.CalculatorAddMethodTests [  24] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 10:54:13,305 main            com.sapient.tests.CalculatorAddMethodTests [  56] CalculatorAddMethodTests.shouldAddNegativeNumbers() called
+[TRACE] 2022-02-03 10:54:13,306 main            com.sapient.Calculator [  26] input is "-10, -20, -30"
+[TRACE] 2022-02-03 10:54:13,306 main            com.sapient.tests.CalculatorAddMethodTests [  31] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 10:54:13,315 main            com.sapient.tests.CalculatorAddMethodTests [  24] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 10:54:13,317 main            com.sapient.tests.CalculatorAddMethodTests [  72] CalculatorAddMethodTests.shouldThrowNullPointerException() called
+[TRACE] 2022-02-03 10:54:13,318 main            com.sapient.Calculator [  26] input is "null"
+[TRACE] 2022-02-03 10:54:13,318 main            com.sapient.tests.CalculatorAddMethodTests [  31] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 10:57:15,461 main            com.sapient.tests.CalculatorAddMethodTests [  24] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 10:57:15,465 main            com.sapient.tests.CalculatorAddMethodTests [  46] CalculatorAddMethodTests.shouldAddMoreThanTwoNumbers() called
+[TRACE] 2022-02-03 10:57:15,470 main            com.sapient.Calculator [  26] input is "10, 90, 50, 30, 20"
+[TRACE] 2022-02-03 10:57:15,474 main            com.sapient.tests.CalculatorAddMethodTests [  31] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 10:57:15,483 main            com.sapient.tests.CalculatorAddMethodTests [  24] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 10:57:15,484 main            com.sapient.tests.CalculatorAddMethodTests [  81] CalculatorAddMethodTests.shouldThrowInputMismatchException() called
+[TRACE] 2022-02-03 10:57:15,485 main            com.sapient.Calculator [  26] input is "10, 20, vinod, kumar"
+[TRACE] 2022-02-03 10:57:15,486 main            com.sapient.tests.CalculatorAddMethodTests [  31] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 10:57:15,488 main            com.sapient.tests.CalculatorAddMethodTests [  24] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 10:57:15,488 main            com.sapient.tests.CalculatorAddMethodTests [  64] CalculatorAddMethodTests.shouldAddCombinationOfPositiveAndNegativeNumbers() called
+[TRACE] 2022-02-03 10:57:15,489 main            com.sapient.Calculator [  26] input is "-10, -20, 30, 2"
+[TRACE] 2022-02-03 10:57:15,489 main            com.sapient.tests.CalculatorAddMethodTests [  31] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 10:57:15,491 main            com.sapient.tests.CalculatorAddMethodTests [  24] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 10:57:15,491 main            com.sapient.tests.CalculatorAddMethodTests [  36] CalculatorAddMethodTests.shouldAddTwoNumbers() called
+[TRACE] 2022-02-03 10:57:15,492 main            com.sapient.Calculator [  26] input is "10,20"
+[TRACE] 2022-02-03 10:57:15,492 main            com.sapient.tests.CalculatorAddMethodTests [  31] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 10:57:15,495 main            com.sapient.tests.CalculatorAddMethodTests [  24] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 10:57:15,495 main            com.sapient.tests.CalculatorAddMethodTests [  56] CalculatorAddMethodTests.shouldAddNegativeNumbers() called
+[TRACE] 2022-02-03 10:57:15,495 main            com.sapient.Calculator [  26] input is "-10, -20, -30"
+[TRACE] 2022-02-03 10:57:15,496 main            com.sapient.tests.CalculatorAddMethodTests [  31] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 10:57:15,504 main            com.sapient.tests.CalculatorAddMethodTests [  24] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 10:57:15,506 main            com.sapient.tests.CalculatorAddMethodTests [  72] CalculatorAddMethodTests.shouldThrowNullPointerException() called
+[TRACE] 2022-02-03 10:57:15,507 main            com.sapient.Calculator [  26] input is "null"
+[TRACE] 2022-02-03 10:57:15,507 main            com.sapient.tests.CalculatorAddMethodTests [  31] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 12:09:51,358 main            com.sapient.tests.CalculatorAddMethodTests [  24] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 12:09:51,365 main            com.sapient.tests.CalculatorAddMethodTests [  46] CalculatorAddMethodTests.shouldAddMoreThanTwoNumbers() called
+[TRACE] 2022-02-03 12:09:51,373 main            com.sapient.Calculator [  26] input is "10, 90, 50, 30, 20"
+[TRACE] 2022-02-03 12:09:51,381 main            com.sapient.tests.CalculatorAddMethodTests [  31] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 12:09:51,397 main            com.sapient.tests.CalculatorAddMethodTests [  24] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 12:09:51,398 main            com.sapient.tests.CalculatorAddMethodTests [  81] CalculatorAddMethodTests.shouldThrowInputMismatchException() called
+[TRACE] 2022-02-03 12:09:51,401 main            com.sapient.Calculator [  26] input is "10, 20, vinod, kumar"
+[TRACE] 2022-02-03 12:09:51,403 main            com.sapient.tests.CalculatorAddMethodTests [  31] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 12:09:51,408 main            com.sapient.tests.CalculatorAddMethodTests [  24] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 12:09:51,409 main            com.sapient.tests.CalculatorAddMethodTests [  64] CalculatorAddMethodTests.shouldAddCombinationOfPositiveAndNegativeNumbers() called
+[TRACE] 2022-02-03 12:09:51,409 main            com.sapient.Calculator [  26] input is "-10, -20, 30, 2"
+[TRACE] 2022-02-03 12:09:51,410 main            com.sapient.tests.CalculatorAddMethodTests [  31] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 12:09:51,414 main            com.sapient.tests.CalculatorAddMethodTests [  24] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 12:09:51,415 main            com.sapient.tests.CalculatorAddMethodTests [  36] CalculatorAddMethodTests.shouldAddTwoNumbers() called
+[TRACE] 2022-02-03 12:09:51,415 main            com.sapient.Calculator [  26] input is "10,20"
+[TRACE] 2022-02-03 12:09:51,416 main            com.sapient.tests.CalculatorAddMethodTests [  31] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 12:09:51,422 main            com.sapient.tests.CalculatorAddMethodTests [  24] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 12:09:51,423 main            com.sapient.tests.CalculatorAddMethodTests [  56] CalculatorAddMethodTests.shouldAddNegativeNumbers() called
+[TRACE] 2022-02-03 12:09:51,424 main            com.sapient.Calculator [  26] input is "-10, -20, -30"
+[TRACE] 2022-02-03 12:09:51,425 main            com.sapient.tests.CalculatorAddMethodTests [  31] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 12:09:51,428 main            com.sapient.tests.CalculatorAddMethodTests [  24] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 12:09:51,437 main            com.sapient.tests.CalculatorAddMethodTests [  72] CalculatorAddMethodTests.shouldThrowNullPointerException() called
+[TRACE] 2022-02-03 12:09:51,438 main            com.sapient.Calculator [  26] input is "null"
+[TRACE] 2022-02-03 12:09:51,439 main            com.sapient.tests.CalculatorAddMethodTests [  31] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 12:14:08,112 main            com.sapient.tests.CalculatorAddMethodTests [  25] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 12:14:08,122 main            com.sapient.tests.CalculatorAddMethodTests [  47] CalculatorAddMethodTests.shouldAddMoreThanTwoNumbers() called
+[TRACE] 2022-02-03 12:14:08,133 main            com.sapient.Calculator [  26] input is "10, 90, 50, 30, 20"
+[TRACE] 2022-02-03 12:14:08,143 main            com.sapient.tests.CalculatorAddMethodTests [  32] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 12:14:08,158 main            com.sapient.tests.CalculatorAddMethodTests [  25] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 12:14:08,160 main            com.sapient.tests.CalculatorAddMethodTests [  84] CalculatorAddMethodTests.shouldThrowInputMismatchException() called
+[TRACE] 2022-02-03 12:14:08,163 main            com.sapient.Calculator [  26] input is "10, 20, vinod, kumar"
+[TRACE] 2022-02-03 12:14:08,164 main            com.sapient.tests.CalculatorAddMethodTests [  32] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 12:14:08,172 main            com.sapient.tests.CalculatorAddMethodTests [  25] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 12:14:08,173 main            com.sapient.tests.CalculatorAddMethodTests [  37] CalculatorAddMethodTests.shouldAddTwoNumbers() called
+[TRACE] 2022-02-03 12:14:08,174 main            com.sapient.Calculator [  26] input is "10,20"
+[TRACE] 2022-02-03 12:14:08,175 main            com.sapient.tests.CalculatorAddMethodTests [  32] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 12:14:08,180 main            com.sapient.tests.CalculatorAddMethodTests [  25] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 12:14:08,181 main            com.sapient.tests.CalculatorAddMethodTests [  57] CalculatorAddMethodTests.shouldAddNegativeNumbers() called
+[TRACE] 2022-02-03 12:14:08,181 main            com.sapient.Calculator [  26] input is "-10, -20, -30"
+[TRACE] 2022-02-03 12:14:08,183 main            com.sapient.tests.CalculatorAddMethodTests [  32] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 12:14:08,198 main            com.sapient.tests.CalculatorAddMethodTests [  25] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 12:14:08,199 main            com.sapient.tests.CalculatorAddMethodTests [  75] CalculatorAddMethodTests.shouldThrowNullPointerException() called
+[TRACE] 2022-02-03 12:14:08,204 main            com.sapient.Calculator [  26] input is "null"
+[TRACE] 2022-02-03 12:14:08,206 main            com.sapient.tests.CalculatorAddMethodTests [  32] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 12:20:16,153 main            com.sapient.tests.CalculatorAddMethodTests [  25] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 12:20:16,172 main            com.sapient.tests.CalculatorAddMethodTests [  47] CalculatorAddMethodTests.shouldAddMoreThanTwoNumbers() called
+[TRACE] 2022-02-03 12:20:16,193 main            com.sapient.Calculator [  26] input is "10, 90, 50, 30, 20"
+[TRACE] 2022-02-03 12:20:16,214 main            com.sapient.tests.CalculatorAddMethodTests [  32] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 12:20:16,267 main            com.sapient.tests.CalculatorAddMethodTests [  25] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 12:20:16,269 main            com.sapient.tests.CalculatorAddMethodTests [  84] CalculatorAddMethodTests.shouldThrowInputMismatchException() called
+[TRACE] 2022-02-03 12:20:16,277 main            com.sapient.Calculator [  26] input is "10, 20, vinod, kumar"
+[TRACE] 2022-02-03 12:20:16,288 main            com.sapient.tests.CalculatorAddMethodTests [  32] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 12:20:16,310 main            com.sapient.tests.CalculatorAddMethodTests [  25] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 12:20:16,311 main            com.sapient.tests.CalculatorAddMethodTests [  37] CalculatorAddMethodTests.shouldAddTwoNumbers() called
+[TRACE] 2022-02-03 12:20:16,312 main            com.sapient.Calculator [  26] input is "10,20"
+[TRACE] 2022-02-03 12:20:16,314 main            com.sapient.tests.CalculatorAddMethodTests [  32] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 12:20:16,323 main            com.sapient.tests.CalculatorAddMethodTests [  25] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 12:20:16,325 main            com.sapient.tests.CalculatorAddMethodTests [  57] CalculatorAddMethodTests.shouldAddNegativeNumbers() called
+[TRACE] 2022-02-03 12:20:16,326 main            com.sapient.Calculator [  26] input is "-10, -20, -30"
+[TRACE] 2022-02-03 12:20:16,327 main            com.sapient.tests.CalculatorAddMethodTests [  32] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 12:20:16,341 main            com.sapient.tests.CalculatorAddMethodTests [  25] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 12:20:16,343 main            com.sapient.tests.CalculatorAddMethodTests [  75] CalculatorAddMethodTests.shouldThrowNullPointerException() called
+[TRACE] 2022-02-03 12:20:16,347 main            com.sapient.Calculator [  26] input is "null"
+[TRACE] 2022-02-03 12:20:16,349 main            com.sapient.tests.CalculatorAddMethodTests [  32] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 12:31:51,209 main            com.sapient.tests.CalculatorAddMethodTests [  27] CalculatorAddMethodTests.beforeAll() called
+[TRACE] 2022-02-03 12:31:51,238 main            com.sapient.tests.CalculatorAddMethodTests [  37] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 12:31:51,242 main            com.sapient.tests.CalculatorAddMethodTests [  59] CalculatorAddMethodTests.shouldAddMoreThanTwoNumbers() called
+[TRACE] 2022-02-03 12:31:51,251 main            com.sapient.Calculator [  26] input is "10, 90, 50, 30, 20"
+[TRACE] 2022-02-03 12:31:51,261 main            com.sapient.tests.CalculatorAddMethodTests [  44] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 12:31:51,281 main            com.sapient.tests.CalculatorAddMethodTests [  37] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 12:31:51,282 main            com.sapient.tests.CalculatorAddMethodTests [  96] CalculatorAddMethodTests.shouldThrowInputMismatchException() called
+[TRACE] 2022-02-03 12:31:51,286 main            com.sapient.Calculator [  26] input is "10, 20, vinod, kumar"
+[TRACE] 2022-02-03 12:31:51,287 main            com.sapient.tests.CalculatorAddMethodTests [  44] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 12:31:51,298 main            com.sapient.tests.CalculatorAddMethodTests [  37] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 12:31:51,299 main            com.sapient.tests.CalculatorAddMethodTests [  49] CalculatorAddMethodTests.shouldAddTwoNumbers() called
+[TRACE] 2022-02-03 12:31:51,299 main            com.sapient.Calculator [  26] input is "10,20"
+[TRACE] 2022-02-03 12:31:51,300 main            com.sapient.tests.CalculatorAddMethodTests [  44] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 12:31:51,304 main            com.sapient.tests.CalculatorAddMethodTests [  37] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 12:31:51,305 main            com.sapient.tests.CalculatorAddMethodTests [  69] CalculatorAddMethodTests.shouldAddNegativeNumbers() called
+[TRACE] 2022-02-03 12:31:51,306 main            com.sapient.Calculator [  26] input is "-10, -20, -30"
+[TRACE] 2022-02-03 12:31:51,323 main            com.sapient.tests.CalculatorAddMethodTests [  44] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 12:31:51,331 main            com.sapient.tests.CalculatorAddMethodTests [  37] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 12:31:51,332 main            com.sapient.tests.CalculatorAddMethodTests [  87] CalculatorAddMethodTests.shouldThrowNullPointerException() called
+[TRACE] 2022-02-03 12:31:51,334 main            com.sapient.Calculator [  26] input is "null"
+[TRACE] 2022-02-03 12:31:51,336 main            com.sapient.tests.CalculatorAddMethodTests [  44] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 12:31:51,342 main            com.sapient.tests.CalculatorAddMethodTests [  32] CalculatorAddMethodTests.afterAll() called
+[TRACE] 2022-02-03 12:41:28,612 main            com.sapient.tests.CalculatorAddMethodTests [  28] CalculatorAddMethodTests.beforeAll() called
+[TRACE] 2022-02-03 12:41:28,632 main            com.sapient.tests.CalculatorAddMethodTests [  38] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 12:41:28,636 main            com.sapient.tests.CalculatorAddMethodTests [  61] CalculatorAddMethodTests.shouldAddMoreThanTwoNumbers() called
+[TRACE] 2022-02-03 12:41:28,643 main            com.sapient.Calculator [  26] input is "10, 90, 50, 30, 20"
+[TRACE] 2022-02-03 12:41:28,652 main            com.sapient.tests.CalculatorAddMethodTests [  45] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 12:41:28,665 main            com.sapient.tests.CalculatorAddMethodTests [  38] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 12:41:28,666 main            com.sapient.tests.CalculatorAddMethodTests [  99] CalculatorAddMethodTests.shouldThrowInputMismatchException() called
+[TRACE] 2022-02-03 12:41:28,669 main            com.sapient.Calculator [  26] input is "10, 20"
+[TRACE] 2022-02-03 12:41:28,673 main            com.sapient.tests.CalculatorAddMethodTests [  45] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 12:41:28,698 main            com.sapient.tests.CalculatorAddMethodTests [  38] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 12:41:28,699 main            com.sapient.tests.CalculatorAddMethodTests [  51] CalculatorAddMethodTests.shouldAddTwoNumbers() called
+[TRACE] 2022-02-03 12:41:28,699 main            com.sapient.Calculator [  26] input is "10,20"
+[TRACE] 2022-02-03 12:41:28,700 main            com.sapient.tests.CalculatorAddMethodTests [  45] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 12:41:28,704 main            com.sapient.tests.CalculatorAddMethodTests [  38] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 12:41:28,705 main            com.sapient.tests.CalculatorAddMethodTests [  71] CalculatorAddMethodTests.shouldAddNegativeNumbers() called
+[TRACE] 2022-02-03 12:41:28,706 main            com.sapient.Calculator [  26] input is "-10, -20, -30"
+[TRACE] 2022-02-03 12:41:28,707 main            com.sapient.tests.CalculatorAddMethodTests [  45] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 12:41:28,711 main            com.sapient.tests.CalculatorAddMethodTests [  38] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 12:41:28,711 main            com.sapient.tests.CalculatorAddMethodTests [  89] CalculatorAddMethodTests.shouldThrowNullPointerException() called
+[TRACE] 2022-02-03 12:41:28,712 main            com.sapient.Calculator [  26] input is "null"
+[TRACE] 2022-02-03 12:41:28,713 main            com.sapient.tests.CalculatorAddMethodTests [  45] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 12:41:28,717 main            com.sapient.tests.CalculatorAddMethodTests [  33] CalculatorAddMethodTests.afterAll() called
+[TRACE] 2022-02-03 12:42:14,007 main            com.sapient.tests.CalculatorAddMethodTests [  28] CalculatorAddMethodTests.beforeAll() called
+[TRACE] 2022-02-03 12:42:14,036 main            com.sapient.tests.CalculatorAddMethodTests [  38] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 12:42:14,042 main            com.sapient.tests.CalculatorAddMethodTests [  61] CalculatorAddMethodTests.shouldAddMoreThanTwoNumbers() called
+[TRACE] 2022-02-03 12:42:14,057 main            com.sapient.Calculator [  26] input is "10, 90, 50, 30, 20"
+[TRACE] 2022-02-03 12:42:14,072 main            com.sapient.tests.CalculatorAddMethodTests [  45] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 12:42:14,098 main            com.sapient.tests.CalculatorAddMethodTests [  38] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 12:42:14,100 main            com.sapient.tests.CalculatorAddMethodTests [  99] CalculatorAddMethodTests.shouldThrowInputMismatchException() called
+[TRACE] 2022-02-03 12:42:14,104 main            com.sapient.Calculator [  26] input is "10, 20"
+[TRACE] 2022-02-03 12:42:14,111 main            com.sapient.tests.CalculatorAddMethodTests [  45] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 12:42:14,156 main            com.sapient.tests.CalculatorAddMethodTests [  38] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 12:42:14,159 main            com.sapient.tests.CalculatorAddMethodTests [  51] CalculatorAddMethodTests.shouldAddTwoNumbers() called
+[TRACE] 2022-02-03 12:42:14,161 main            com.sapient.Calculator [  26] input is "10,20"
+[TRACE] 2022-02-03 12:42:14,164 main            com.sapient.tests.CalculatorAddMethodTests [  45] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 12:42:14,169 main            com.sapient.tests.CalculatorAddMethodTests [  38] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 12:42:14,172 main            com.sapient.tests.CalculatorAddMethodTests [  71] CalculatorAddMethodTests.shouldAddNegativeNumbers() called
+[TRACE] 2022-02-03 12:42:14,173 main            com.sapient.Calculator [  26] input is "-10, -20, -30"
+[TRACE] 2022-02-03 12:42:14,177 main            com.sapient.tests.CalculatorAddMethodTests [  45] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 12:42:14,182 main            com.sapient.tests.CalculatorAddMethodTests [  38] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 12:42:14,183 main            com.sapient.tests.CalculatorAddMethodTests [  89] CalculatorAddMethodTests.shouldThrowNullPointerException() called
+[TRACE] 2022-02-03 12:42:14,184 main            com.sapient.Calculator [  26] input is "null"
+[TRACE] 2022-02-03 12:42:14,186 main            com.sapient.tests.CalculatorAddMethodTests [  45] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 12:42:14,197 main            com.sapient.tests.CalculatorAddMethodTests [  33] CalculatorAddMethodTests.afterAll() called
+[TRACE] 2022-02-03 12:44:04,946 main            com.sapient.tests.CalculatorAddMethodTests [  29] CalculatorAddMethodTests.beforeAll() called
+[TRACE] 2022-02-03 12:44:04,969 main            com.sapient.tests.CalculatorAddMethodTests [  39] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 12:44:04,973 main            com.sapient.tests.CalculatorAddMethodTests [  62] CalculatorAddMethodTests.shouldAddMoreThanTwoNumbers() called
+[TRACE] 2022-02-03 12:44:04,981 main            com.sapient.Calculator [  26] input is "10, 90, 50, 30, 20"
+[TRACE] 2022-02-03 12:44:04,990 main            com.sapient.tests.CalculatorAddMethodTests [  46] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 12:44:05,005 main            com.sapient.tests.CalculatorAddMethodTests [  39] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 12:44:05,007 main            com.sapient.tests.CalculatorAddMethodTests [ 100] CalculatorAddMethodTests.shouldThrowInputMismatchException() called
+[TRACE] 2022-02-03 12:44:05,007 main            com.sapient.Calculator [  26] input is "10, 20"
+[TRACE] 2022-02-03 12:44:05,012 main            com.sapient.tests.CalculatorAddMethodTests [  46] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 12:44:05,043 main            com.sapient.tests.CalculatorAddMethodTests [  39] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 12:44:05,044 main            com.sapient.tests.CalculatorAddMethodTests [  52] CalculatorAddMethodTests.shouldAddTwoNumbers() called
+[TRACE] 2022-02-03 12:44:05,044 main            com.sapient.Calculator [  26] input is "10,20"
+[TRACE] 2022-02-03 12:44:05,045 main            com.sapient.tests.CalculatorAddMethodTests [  46] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 12:44:05,050 main            com.sapient.tests.CalculatorAddMethodTests [  39] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 12:44:05,051 main            com.sapient.tests.CalculatorAddMethodTests [  72] CalculatorAddMethodTests.shouldAddNegativeNumbers() called
+[TRACE] 2022-02-03 12:44:05,051 main            com.sapient.Calculator [  26] input is "-10, -20, -30"
+[TRACE] 2022-02-03 12:44:05,053 main            com.sapient.tests.CalculatorAddMethodTests [  46] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 12:44:05,057 main            com.sapient.tests.CalculatorAddMethodTests [  39] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 12:44:05,058 main            com.sapient.tests.CalculatorAddMethodTests [  90] CalculatorAddMethodTests.shouldThrowNullPointerException() called
+[TRACE] 2022-02-03 12:44:05,060 main            com.sapient.Calculator [  26] input is "null"
+[TRACE] 2022-02-03 12:44:05,061 main            com.sapient.tests.CalculatorAddMethodTests [  46] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 12:44:05,066 main            com.sapient.tests.CalculatorAddMethodTests [  34] CalculatorAddMethodTests.afterAll() called
+[TRACE] 2022-02-03 12:44:54,453 main            com.sapient.tests.CalculatorAddMethodTests [  29] CalculatorAddMethodTests.beforeAll() called
+[TRACE] 2022-02-03 12:44:54,476 main            com.sapient.tests.CalculatorAddMethodTests [  39] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 12:44:54,480 main            com.sapient.tests.CalculatorAddMethodTests [  62] CalculatorAddMethodTests.shouldAddMoreThanTwoNumbers() called
+[TRACE] 2022-02-03 12:44:54,490 main            com.sapient.Calculator [  26] input is "10, 90, 50, 30, 20"
+[TRACE] 2022-02-03 12:44:54,499 main            com.sapient.tests.CalculatorAddMethodTests [  46] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 12:44:54,513 main            com.sapient.tests.CalculatorAddMethodTests [  39] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 12:44:54,514 main            com.sapient.tests.CalculatorAddMethodTests [ 100] CalculatorAddMethodTests.shouldThrowInputMismatchException() called
+[TRACE] 2022-02-03 12:44:54,515 main            com.sapient.Calculator [  26] input is "10, 20, vinod"
+[TRACE] 2022-02-03 12:44:54,516 main            com.sapient.tests.CalculatorAddMethodTests [  46] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 12:44:54,524 main            com.sapient.tests.CalculatorAddMethodTests [  39] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 12:44:54,524 main            com.sapient.tests.CalculatorAddMethodTests [  52] CalculatorAddMethodTests.shouldAddTwoNumbers() called
+[TRACE] 2022-02-03 12:44:54,525 main            com.sapient.Calculator [  26] input is "10,20"
+[TRACE] 2022-02-03 12:44:54,526 main            com.sapient.tests.CalculatorAddMethodTests [  46] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 12:44:54,530 main            com.sapient.tests.CalculatorAddMethodTests [  39] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 12:44:54,541 main            com.sapient.tests.CalculatorAddMethodTests [  72] CalculatorAddMethodTests.shouldAddNegativeNumbers() called
+[TRACE] 2022-02-03 12:44:54,543 main            com.sapient.Calculator [  26] input is "-10, -20, -30"
+[TRACE] 2022-02-03 12:44:54,551 main            com.sapient.tests.CalculatorAddMethodTests [  46] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 12:44:54,555 main            com.sapient.tests.CalculatorAddMethodTests [  39] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-03 12:44:54,556 main            com.sapient.tests.CalculatorAddMethodTests [  90] CalculatorAddMethodTests.shouldThrowNullPointerException() called
+[TRACE] 2022-02-03 12:44:54,559 main            com.sapient.Calculator [  26] input is "null"
+[TRACE] 2022-02-03 12:44:54,560 main            com.sapient.tests.CalculatorAddMethodTests [  46] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-03 12:44:54,565 main            com.sapient.tests.CalculatorAddMethodTests [  34] CalculatorAddMethodTests.afterAll() called
+[TRACE] 2022-02-04 15:18:50,483 main            com.sapient.tests.CalculatorAddMethodTests [  29] CalculatorAddMethodTests.beforeAll() called
+[TRACE] 2022-02-04 15:18:50,497 main            com.sapient.tests.CalculatorAddMethodTests [  39] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-04 15:18:50,500 main            com.sapient.tests.CalculatorAddMethodTests [  62] CalculatorAddMethodTests.shouldAddMoreThanTwoNumbers() called
+[TRACE] 2022-02-04 15:18:50,507 main            com.sapient.Calculator [  26] input is "10, 90, 50, 30, 20"
+[TRACE] 2022-02-04 15:18:50,514 main            com.sapient.tests.CalculatorAddMethodTests [  46] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-04 15:18:50,525 main            com.sapient.tests.CalculatorAddMethodTests [  39] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-04 15:18:50,526 main            com.sapient.tests.CalculatorAddMethodTests [ 100] CalculatorAddMethodTests.shouldThrowInputMismatchException() called
+[TRACE] 2022-02-04 15:18:50,526 main            com.sapient.Calculator [  26] input is "10, 20, vinod"
+[TRACE] 2022-02-04 15:18:50,527 main            com.sapient.tests.CalculatorAddMethodTests [  46] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-04 15:18:50,531 main            com.sapient.tests.CalculatorAddMethodTests [  39] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-04 15:18:50,532 main            com.sapient.tests.CalculatorAddMethodTests [  52] CalculatorAddMethodTests.shouldAddTwoNumbers() called
+[TRACE] 2022-02-04 15:18:50,532 main            com.sapient.Calculator [  26] input is "10,20"
+[TRACE] 2022-02-04 15:18:50,533 main            com.sapient.tests.CalculatorAddMethodTests [  46] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-04 15:18:50,535 main            com.sapient.tests.CalculatorAddMethodTests [  39] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-04 15:18:50,546 main            com.sapient.tests.CalculatorAddMethodTests [  72] CalculatorAddMethodTests.shouldAddNegativeNumbers() called
+[TRACE] 2022-02-04 15:18:50,547 main            com.sapient.Calculator [  26] input is "-10, -20, -30"
+[TRACE] 2022-02-04 15:18:50,549 main            com.sapient.tests.CalculatorAddMethodTests [  46] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-04 15:18:50,557 main            com.sapient.tests.CalculatorAddMethodTests [  39] CalculatorAddMethodTests.setup() called
+[TRACE] 2022-02-04 15:18:50,558 main            com.sapient.tests.CalculatorAddMethodTests [  90] CalculatorAddMethodTests.shouldThrowNullPointerException() called
+[TRACE] 2022-02-04 15:18:50,560 main            com.sapient.Calculator [  26] input is "null"
+[TRACE] 2022-02-04 15:18:50,561 main            com.sapient.tests.CalculatorAddMethodTests [  46] CalculatorAddMethodTests.tearDown() called
+[TRACE] 2022-02-04 15:18:50,564 main            com.sapient.tests.CalculatorAddMethodTests [  34] CalculatorAddMethodTests.afterAll() called

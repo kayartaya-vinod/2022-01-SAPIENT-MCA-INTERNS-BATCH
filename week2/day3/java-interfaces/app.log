@@ -1,0 +1,70 @@
+[TRACE] 2022-01-27 09:38:14,560 main            com.sapient.programs.CreateShapes [  15] r1 instanceof Rectangle is true
+[TRACE] 2022-01-27 09:38:14,562 main            com.sapient.programs.CreateShapes [  16] c1 instanceof Circle is true
+[TRACE] 2022-01-27 09:38:14,562 main            com.sapient.programs.CreateShapes [  17] r1 instanceof ShapeMetrics is true
+[TRACE] 2022-01-27 09:38:14,563 main            com.sapient.programs.CreateShapes [  18] c1 instanceof ShapeMetrics is true
+[TRACE] 2022-01-27 09:41:25,620 main            com.sapient.programs.CreateShapes [  15] r1 instanceof Rectangle is true
+[TRACE] 2022-01-27 09:41:25,622 main            com.sapient.programs.CreateShapes [  16] c1 instanceof Circle is true
+[TRACE] 2022-01-27 09:41:25,622 main            com.sapient.programs.CreateShapes [  17] r1 instanceof ShapeMetrics is true
+[TRACE] 2022-01-27 09:41:25,622 main            com.sapient.programs.CreateShapes [  18] c1 instanceof ShapeMetrics is true
+
+[TRACE] 2022-01-27 09:41:25,622 main            com.sapient.programs.CreateShapes [  26] Got an object of type com.sapient.entity.Rectangle
+[TRACE] 2022-01-27 09:41:25,624 main            com.sapient.programs.CreateShapes [  27] Area  = 0.0
+[TRACE] 2022-01-27 09:41:25,624 main            com.sapient.programs.CreateShapes [  28] Perimeter = 0.0
+
+[TRACE] 2022-01-27 09:41:25,626 main            com.sapient.programs.CreateShapes [  26] Got an object of type com.sapient.entity.Circle
+[TRACE] 2022-01-27 09:41:25,627 main            com.sapient.programs.CreateShapes [  27] Area  = 0.0
+[TRACE] 2022-01-27 09:41:25,627 main            com.sapient.programs.CreateShapes [  28] Perimeter = 0.0
+
+[TRACE] 2022-01-27 09:42:20,820 main            com.sapient.programs.CreateShapes [  15] r1 instanceof Rectangle is true
+[TRACE] 2022-01-27 09:42:20,822 main            com.sapient.programs.CreateShapes [  16] c1 instanceof Circle is true
+[TRACE] 2022-01-27 09:42:20,822 main            com.sapient.programs.CreateShapes [  17] r1 instanceof ShapeMetrics is true
+[TRACE] 2022-01-27 09:42:20,823 main            com.sapient.programs.CreateShapes [  18] c1 instanceof ShapeMetrics is true
+
+[TRACE] 2022-01-27 09:42:20,823 main            com.sapient.programs.CreateShapes [  26] Got an object of type com.sapient.entity.Rectangle
+[TRACE] 2022-01-27 09:42:20,825 main            com.sapient.programs.CreateShapes [  27] Area  = 156.0
+[TRACE] 2022-01-27 09:42:20,826 main            com.sapient.programs.CreateShapes [  28] Perimeter = 50.0
+
+[TRACE] 2022-01-27 09:42:20,828 main            com.sapient.programs.CreateShapes [  26] Got an object of type com.sapient.entity.Circle
+[TRACE] 2022-01-27 09:42:20,828 main            com.sapient.programs.CreateShapes [  27] Area  = 3752.2981592546666
+[TRACE] 2022-01-27 09:42:20,828 main            com.sapient.programs.CreateShapes [  28] Perimeter = 217.14688421612652
+
+[TRACE] 2022-01-27 09:47:19,578 main            com.sapient.programs.CreateShapes [  17] r1 instanceof Rectangle is true
+[TRACE] 2022-01-27 09:47:19,581 main            com.sapient.programs.CreateShapes [  18] c1 instanceof Circle is true
+[TRACE] 2022-01-27 09:47:19,581 main            com.sapient.programs.CreateShapes [  19] r1 instanceof ShapeMetrics is true
+[TRACE] 2022-01-27 09:47:19,581 main            com.sapient.programs.CreateShapes [  20] c1 instanceof ShapeMetrics is true
+
+[TRACE] 2022-01-27 09:47:19,581 main            com.sapient.programs.CreateShapes [  30] Got an object of type com.sapient.entity.Triangle
+[TRACE] 2022-01-27 09:47:19,584 main            com.sapient.programs.CreateShapes [  31] Area  = 78.0
+[ WARN] 2022-01-27 09:47:19,586 main            com.sapient.programs.CreateShapes [  34] There was an exception
+java.lang.RuntimeException: Perimeter is not availabe at this time
+	at com.sapient.entity.Triangle.getPerimeter(Triangle.java:21)
+	at com.sapient.programs.CreateShapes.printShapeMetrics(CreateShapes.java:32)
+	at com.sapient.programs.CreateShapes.main(CreateShapes.java:22)
+[TRACE] 2022-01-27 09:47:19,589 main            com.sapient.programs.CreateShapes [  30] Got an object of type com.sapient.entity.Rectangle
+[TRACE] 2022-01-27 09:47:19,590 main            com.sapient.programs.CreateShapes [  31] Area  = 156.0
+[TRACE] 2022-01-27 09:47:19,590 main            com.sapient.programs.CreateShapes [  32] Perimeter = 50.0
+
+[TRACE] 2022-01-27 09:47:19,590 main            com.sapient.programs.CreateShapes [  30] Got an object of type com.sapient.entity.Circle
+[TRACE] 2022-01-27 09:47:19,590 main            com.sapient.programs.CreateShapes [  31] Area  = 3752.2981592546666
+[TRACE] 2022-01-27 09:47:19,590 main            com.sapient.programs.CreateShapes [  32] Perimeter = 217.14688421612652
+
+[TRACE] 2022-01-27 09:47:31,569 main            com.sapient.programs.CreateShapes [  17] r1 instanceof Rectangle is true
+[TRACE] 2022-01-27 09:47:31,571 main            com.sapient.programs.CreateShapes [  18] c1 instanceof Circle is true
+[TRACE] 2022-01-27 09:47:31,571 main            com.sapient.programs.CreateShapes [  19] r1 instanceof ShapeMetrics is true
+[TRACE] 2022-01-27 09:47:31,572 main            com.sapient.programs.CreateShapes [  20] c1 instanceof ShapeMetrics is true
+
+[TRACE] 2022-01-27 09:47:31,572 main            com.sapient.programs.CreateShapes [  30] Got an object of type com.sapient.entity.Triangle
+[TRACE] 2022-01-27 09:47:31,574 main            com.sapient.programs.CreateShapes [  31] Area  = 78.0
+[ WARN] 2022-01-27 09:47:31,575 main            com.sapient.programs.CreateShapes [  34] There was an exception
+java.lang.RuntimeException: Perimeter is not availabe at this time
+	at com.sapient.entity.Triangle.getPerimeter(Triangle.java:21)
+	at com.sapient.programs.CreateShapes.printShapeMetrics(CreateShapes.java:32)
+	at com.sapient.programs.CreateShapes.main(CreateShapes.java:22)
+[TRACE] 2022-01-27 09:47:31,579 main            com.sapient.programs.CreateShapes [  30] Got an object of type com.sapient.entity.Rectangle
+[TRACE] 2022-01-27 09:47:31,579 main            com.sapient.programs.CreateShapes [  31] Area  = 156.0
+[TRACE] 2022-01-27 09:47:31,580 main            com.sapient.programs.CreateShapes [  32] Perimeter = 50.0
+
+[TRACE] 2022-01-27 09:47:31,580 main            com.sapient.programs.CreateShapes [  30] Got an object of type com.sapient.entity.Circle
+[TRACE] 2022-01-27 09:47:31,581 main            com.sapient.programs.CreateShapes [  31] Area  = 3752.2981592546666
+[TRACE] 2022-01-27 09:47:31,581 main            com.sapient.programs.CreateShapes [  32] Perimeter = 217.14688421612652
+

@@ -1,0 +1,49 @@
+http://localhost:8080/api/books
+
+
+### RFC 2616 format for sending HTTP request
+
+GET /api/books
+Host: localhost:8080
+Accept: application/json
+
+###
+
+GET /api/books
+Host: localhost:8080
+Accept: application/xml
+
+###
+
+GET /api/books/12
+Host: localhost:8080
+Accept: application/json
+
+###
+
+GET /api/books/12
+Host: localhost:8080
+Accept: application/xml
+
+###
+
+POST /api/books
+Host: localhost:8080
+Accept: application/json
+Content-Type: application/json
+
+{"id":7,"title":"Java in easy steps","price":459.0}
+###
+
+POST /api/books
+Host: localhost:8080
+Accept: application/xml
+Content-Type: application/xml
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<book>
+  <id>5</id>
+  <price>399.0</price>
+  <title>Docker with Spring boot</title>
+</book>
+###

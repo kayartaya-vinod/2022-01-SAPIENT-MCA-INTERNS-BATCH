@@ -1,0 +1,38 @@
+GET /api/customers
+Host: localhost:8080
+Accept: application/json
+Authorization: Basic vinod:topsecret
+
+###
+
+POST /api/login
+Host: localhost:8080
+Accept: application/json
+Content-Type: application/json
+
+{"email": "vinod@vinod.co","password":"topsecret"}
+
+###
+
+POST /api/login
+Host: localhost:8080
+Accept: application/json
+Content-Type: application/json
+
+{"email": "johndoe@xmpl.com","password":"johndoe@123"}
+
+###
+
+POST /api/login
+Host: localhost:8080
+Accept: application/json
+Content-Type: application/json
+
+{"email": "janedoe@xmpl.com","password":"jane@123"}
+
+###
+
+GET /api/products
+Host: localhost:8080
+Accept: application/json
+Authorization: JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huZG9lQHhtcGwuY29tIiwibmFtZSI6ImpvaG5kb2VAeG1wbC5jb20iLCJleHAiOjE2NDUwMDM3NjcsImlhdCI6MTY0NTAwMjg2N30.Ny8ne8De_dVZRS-lESHGUnkd1dLU_bJWAnEt3knzULA

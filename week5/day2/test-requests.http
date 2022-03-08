@@ -1,0 +1,87 @@
+GET /api/customers
+Host: localhost:8080
+Accept: application/json
+
+###
+GET /api/customers/620b3925289cec1533f7174e
+Host: localhost:8080
+Accept: application/json
+
+###
+GET /api/customers?_page=2
+Host: localhost:8080
+Accept: application/json
+###
+GET /api/customers?_page=2&_limit=5
+Host: localhost:8080
+Accept: application/json
+
+###
+
+POST /api/customers
+Host: localhost:8080
+Content-Type: application/json
+Accept: application/json
+
+{
+    "firstname": "Vinod",
+    "lastname": "Kumar",
+    "gender": "Male",
+    "email": "vinod@vinod.co",
+    "phone": "9731424784",
+    "address": "1st cross 1st main ISRO lyt",
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "zipcode": 560078,
+    "country": "India"
+}
+
+###
+
+PUT /api/customers/620b41c4d35c630845e26aa1
+Host: localhost:8080
+Content-Type: application/json
+Accept: application/json
+
+{
+    "firstname": "Vinod",
+    "lastname": "Kumar Kayartaya",
+    "gender": "Male",
+    "email": "kayartaya.vinod@gmail.com",
+    "phone": "9844083934",
+    "address": "1st cross 1st main ISRO lyt",
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "zipcode": 560078,
+    "country": "India"
+}
+
+###
+
+DELETE /api/customers/620b3925289cec1533f71771
+Host: localhost:8080
+Accept: application/json
+
+###
+
+GET /api/customers/search?country=China
+Host: localhost:8080
+Accept: application/json
+
+###
+
+GET /api/customers/by-email?email=kayartaya.vinod@gmail.com
+Host: localhost:8080
+Accept: application/json
+
+###
+
+GET /api/customers/by-phone?phone=9844083934
+Host: localhost:8080
+Accept: application/json
+
+###
+
+GET /api/customers/by-email-phone?phone=9844083934&email=kayartaya.vinod@gmail.com
+Host: localhost:8080
+Accept: application/json

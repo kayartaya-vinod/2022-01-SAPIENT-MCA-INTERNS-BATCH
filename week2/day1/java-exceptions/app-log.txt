@@ -1,0 +1,18 @@
+[TRACE] 2022-01-24 10:14:38,941 main            com.sapient.App [  12] This is a trace message
+[DEBUG] 2022-01-24 10:14:38,945 main            com.sapient.App [  13] This is a debug message
+[ INFO] 2022-01-24 10:14:38,945 main            com.sapient.App [  14] This is a info message
+[ WARN] 2022-01-24 10:14:38,946 main            com.sapient.App [  15] This is a warn message
+[ERROR] 2022-01-24 10:14:38,946 main            com.sapient.App [  16] This is a error message
+[TRACE] 2022-01-24 10:16:05,470 main            com.sapient.App (main) [  12] This is a trace message
+[DEBUG] 2022-01-24 10:16:05,474 main            com.sapient.App (main) [  13] This is a debug message
+[ INFO] 2022-01-24 10:16:05,474 main            com.sapient.App (main) [  14] This is a info message
+[ WARN] 2022-01-24 10:16:05,475 main            com.sapient.App (main) [  15] This is a warn message
+[ERROR] 2022-01-24 10:16:05,475 main            com.sapient.App (main) [  16] This is a error message
+[ WARN] 2022-01-24 10:17:32,027 main            com.sapient.App (main) [  15] This is a warn message
+[ERROR] 2022-01-24 10:17:32,030 main            com.sapient.App (main) [  16] This is a error message
+[TRACE] 2022-01-24 10:25:04,564 main            com.sapient.App (main) [  12] This is a trace message
+[DEBUG] 2022-01-24 10:25:04,568 main            com.sapient.App (main) [  13] This is a debug message
+[ INFO] 2022-01-24 10:25:04,568 main            com.sapient.App (main) [  14] This is a info message
+[ WARN] 2022-01-24 10:25:04,568 main            com.sapient.App (main) [  15] This is a warn message
+[ERROR] 2022-01-24 10:25:04,569 main            com.sapient.App (main) [  16] This is a error message
+[TRACE] 2022-01-24 11:22:02,950 main            com.sapient.programs.CommandLineArgsDemo (main) [   9] There are 0 arguments

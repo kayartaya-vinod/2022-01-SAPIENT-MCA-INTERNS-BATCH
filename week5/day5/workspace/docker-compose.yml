@@ -1,0 +1,27 @@
+version: "3.9"
+
+services:
+  mysql8:
+    image: "mysql:latest"
+    container_name: mysql8-container
+    environment:
+      - MYSQL_ROOT_PASSWORD=Welcome#123
+    ports:
+      - "3306:3306"
+    volumes:
+      - "mysql_data:/var/lib/mysql"
+
+  shipper-service:
+    build: ./shipper-service
+    container_name: shipper-service-container
+    depends_on:
+      - mysql8
+    environment:
+      - MYSQL_HOST=mysql8
+    ports:
+      - "1234:8080"
+
+
+volumes:
+  mysql_data:
+    external: true

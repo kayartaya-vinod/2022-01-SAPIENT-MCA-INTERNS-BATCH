@@ -1,0 +1,27 @@
+GET /api/products
+Host: localhost:8080
+Accept: application/json
+Authorization: JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYW1lIjoiU2h5YW0iLCJpZCI6MiwiZXhwIjoxNjQ1NzA1MzM3LCJpYXQiOjE2NDU3MDQ0MzcsImVtYWlsIjoic2h5YW1AeG1wbC5jb20ifQ.8_Zlp31hn4K1zDl7EpqZakspXa1CxBb8_JRggjeHX3I
+
+###
+GET /api/products/22
+Host: localhost:8080
+Accept: application/json
+
+###
+
+
+POST /api/login
+Host: localhost:9090
+Accept: application/json
+Content-Type: application/json
+
+{"email":"shyam@xmpl.com","password":"topsecret"}
+
+
+###
+GET /api/verify?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYW1lIjoiUmF2aSBLdW1hciIsImlkIjoxLCJleHAiOjE2NDU3MDMwOTYsImlhdCI6MTY0NTcwMjE5NiwiZW1haWwiOiJyYXZpQHhtcGwuY28ifQ.9x3gTTNWfFF8KN8qFQQaQ4GpqhKme8GhKnWkExtgPp8
+Host: localhost:9090
+Accept: application/json
+
+###

@@ -1,0 +1,35 @@
+@startuml
+
+class Product{
+   - id: Integer
+   - name: String
+   - description: String
+   - unitPrice: Double
+   - discount: Double
+}
+
+class Order{
+    - id: Integer 
+    - orderDate: Date 
+    - orderStatus: OrderStatus 
+    - customerName: String 
+    - deliveryAddress: String 
+    - orderDetails: Set<LineItem> 
+}
+
+class LineItem{
+    -product:Product
+    -quantity: Integer
+}
+
+enum OrderStatus{
+    +RECEIVED
+    +IN_PROGRESS
+    +DISPATCHED
+    +DELIVERED
+}
+
+Order  o-- "1" OrderStatus: "Has"
+LineItem  o-- "1" Product : "Has"
+Order  o-- "1..n" LineItem: "Has"
+@enduml

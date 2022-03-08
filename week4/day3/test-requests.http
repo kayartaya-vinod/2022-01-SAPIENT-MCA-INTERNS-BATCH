@@ -1,0 +1,61 @@
+http://localhost:8080/pms/hello
+
+###
+
+GET /pms/hello
+Host: localhost:8080
+Accept: text/html
+
+###
+
+POST /pms/hello
+Host: localhost:8080
+Accept: text/html
+
+
+###
+
+GET /pms/hello HTTP/1.1
+Host: localhost:8080
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9,en-US;q=0.8,la;q=0.7
+Cookie: jenkins-timestamper-offset=-19800000; shellInABox=3:101011; nc_sameSiteCookielax=true; nc_sameSiteCookiestrict=true; wp-settings-time-1=1617173556; Idea-a3e92f44=4a3418e3-f8bb-4587-b60e-8287db878ffa
+
+###
+
+GET /products/33
+Host: vinbasket.herokuapp.com
+Accept: application/json
+
+###
+
+GET /orders/3
+Host: vinbasket.herokuapp.com
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibmFtZSI6IlZpbm9kIEt1bWFyIiwiaWF0IjoxNjQ0MzgzMzgyfQ.kCvFM-3nllGN1Fs9TZnyUM14xQBxNmlXutQbjW2YqRM
+
+###
+POST /login
+Host: vinbasket.herokuapp.com
+Content-Type: application/json
+
+{"email":"vinod@vinod.co","password":"topsecret"}
+
+
+###
+
+GET /?s=iron+man&apikey=3bc3c88f
+Host: omdbapi.com
+Accept: application/json

@@ -1,0 +1,67 @@
+version: "3.9"
+
+services:
+
+  prometheus:
+    image: "bitnami/prometheus:latest"
+    container_name: prometheus-container
+    ports:
+      - "9090:9090"
+    volumes:
+      - "./prometheus-conf:/opt/bitnami/prometheus/conf"
+
+  grafana:
+    image: "grafana/grafana:latest"
+    container_name: grafana-container
+    ports:
+      - "3000:3000"
+
+  fluentd:
+    build: ./fluentd
+    container_name: fluentd
+    volumes:
+      - ./fluentd/conf:/fluentd/etc
+    ports:
+      - "24224:24224"
+      - "24224:24224/udp"
+
+  elasticsearch:
+    image: "bitnami/elasticsearch:latest"
+    container_name: elasticsearch
+    environment:
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - esdata1:/usr/share/elasticsearch/data
+    ports:
+      - 9200:9200
+
+  kibana:
+    image: "bitnami/kibana:latest"
+    container_name: kibana
+    environment:
+      ELASTICSEARCH_URL: "http://elasticsearch:9200"
+    ports:
+      - 5601:5601
+    depends_on:
+      - elasticsearch
+
+  book-service:
+    build: ./book-service
+    container_name: book-service-container
+    ports:
+      - "8080:8080"
+    depends_on:
+      - fluentd
+    logging:
+      driver: fluentd
+      options:
+        fluentd-address: fluentd:24224
+        tag: httpd.access
+volumes:
+  esdata1:
+    driver: local

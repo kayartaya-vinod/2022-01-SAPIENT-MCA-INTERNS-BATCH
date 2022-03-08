@@ -1,0 +1,43 @@
+@startuml
+
+
+interface Collection
+interface List
+interface Set
+
+Collection <|--- List
+Collection <|--- Set
+
+abstract class AbstractCollection
+
+Collection <|... AbstractCollection
+
+abstract class AbstractList
+abstract class AbstractSet
+
+List <|... AbstractList
+Set <|... AbstractSet
+
+AbstractCollection <|--- AbstractList
+AbstractCollection <|--- AbstractSet
+
+AbstractList <|--- ArrayList
+AbstractList <|--- Vector
+
+abstract class AbstractSequenceList
+AbstractList <|--- AbstractSequenceList
+
+AbstractSequenceList <|-- LinkedList
+
+interface SortedSet
+
+Set <|--- SortedSet
+
+AbstractSet <|--- HashSet
+AbstractSet <|--- TreeSet
+SortedSet <|... TreeSet
+HashSet <|--- LinkedHashSet
+Set <|... LinkedHashSet
+
+Vector <|--- Stack
+@enduml

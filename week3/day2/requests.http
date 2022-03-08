@@ -1,0 +1,3 @@
+GET /products/44 HTTP/1.1
+Host: vinbasket.herokuapp.com
+Accept: application/json

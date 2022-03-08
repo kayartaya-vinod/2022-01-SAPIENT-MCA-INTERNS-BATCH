@@ -1,0 +1,171 @@
+GET /api/food
+Accept: application/json
+Host: localhost:8080
+
+###
+GET /api/food?page=2
+Accept: application/json
+Host: localhost:8080
+
+###
+GET /api/food/61e3c36e5eae99aa866d920b
+Accept: application/json
+Host: localhost:8080
+
+###
+GET /api/food/71e3c36e5eae99aa866d920d
+Accept: application/json
+Host: localhost:8080
+
+###
+GET /api/food/filter?foodType=Chinese&page=2
+Accept: application/json
+Host: localhost:8080
+
+
+###
+GET /api/users
+Host: localhost:8080
+Accept: application/json
+
+###
+
+POST /api/register
+Host: localhost:8080
+Accept: application/json
+Content-Type: application/json
+
+{
+  "email": "vinod@vinod.co", 
+  "name": "Vinod Kumar",
+  "password": "topsecret" ,
+   "address": {
+     "houseno": 301, 
+     "street": "Elegant Elite, 1st cross, 1st main, ISRO layout", 
+     "city": "Bangalore", 
+     "state": "Karnataka",  
+     "zip": 560078
+  }   
+}
+
+###
+GET /api/users/7
+Host: localhost:8080
+Accept: application/json
+
+###
+GET /api/users/123
+Host: localhost:8080
+Accept: application/json
+###
+
+PUT /api/users/7
+Host: localhost:8080
+Accept: application/json
+Content-Type: application/json
+
+{
+  "email": "vinod@vinod.co", 
+  "name": "Vinod Kumar Kayartaya",
+  "password": "topsecret" ,
+   "address": {
+     "houseno": 301, 
+     "street": "Elegant Elite, 1st cross, 1st main, ISRO layout", 
+     "city": "Bangalore", 
+     "state": "Karnataka",  
+     "zip": 560078
+  }   
+}
+###
+
+PUT /api/users/122
+Host: localhost:8080
+Accept: application/json
+Content-Type: application/json
+
+{
+  "email": "vinod@vinod.co", 
+  "name": "Vinod Kumar Kayartaya",
+  "password": "topsecret" ,
+   "address": {
+     "houseno": 301, 
+     "street": "Elegant Elite, 1st cross, 1st main, ISRO layout", 
+     "city": "Bangalore", 
+     "state": "Karnataka",  
+     "zip": 560078
+  }   
+}
+
+###
+
+DELETE /api/users/122
+Host: localhost:8080
+Accept: application/json
+Content-Type: application/json
+
+###
+
+DELETE /api/users/7
+Host: localhost:8080
+Accept: application/json
+Content-Type: application/json
+
+
+###
+
+POST /api/authenticate
+Host: localhost:8080
+Content-Type: application/json
+
+{
+  "email": "vinod@vinod.co",
+  "password": "topsecret"
+}
+
+### orders
+
+POST /api/orders
+Host: localhost:8080
+Authorization: Jwt eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJWaW5vZCBLdW1hciBLYXlhcnRheWEiLCJpZCI6MiwiZXhwIjoxNjQ0MjQ4MjAzLCJpYXQiOjE2NDQyNDczMDN9.GcQ3ch3t5-at-sJ_G8Bf18h3eNdSiL7lPw41F_KgUN0
+Content-Type: application/json
+
+{
+	"lineItems": [{
+		"food": {
+			"id": "61e3c36e5eae99aa866d9201",
+			"foodName": "Mutta Kolumbu",
+			"foodCost": 100,
+			"foodType": "Indian",
+			"description": "Egg Gravy.",
+			"foodPic": "cqzewfkggaflql4nwqy7.jpeg"
+		},
+		"quantity": 2
+	}, {
+		"food": {
+			"id": "61e3c36e5eae99aa866d9202",
+			"foodName": "Kali Dosa (2 Pcs) with Mutton Paya",
+			"foodCost": 175,
+			"foodType": "Indian",
+			"description": "Dosa served with flavourful paya gravy.",
+			"foodPic": "pue6xog12sr9v44ggcaj.jpeg"
+		},
+		"quantity": 1
+	}, {
+		"food": {
+			"id": "61e3c36e5eae99aa866d9203",
+			"foodName": "Chicken Kabab with Bone",
+			"foodCost": 140,
+			"foodType": "Indian",
+			"description": "Spicy batter fried chicken pieces.",
+			"foodPic": "or2u6psskpjzsdfnap62.jpeg"
+		},
+		"quantity": 2
+	}]
+}
+
+###
+
+GET /api/orders
+Host: localhost:8080
+Authorization: Jwt eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJWaW5vZCBLdW1hciBLYXlhcnRheWEiLCJpZCI6MiwiZXhwIjoxNjQ0MjQ4MjAzLCJpYXQiOjE2NDQyNDczMDN9.GcQ3ch3t5-at-sJ_G8Bf18h3eNdSiL7lPw41F_KgUN0
+Content-Type: application/json

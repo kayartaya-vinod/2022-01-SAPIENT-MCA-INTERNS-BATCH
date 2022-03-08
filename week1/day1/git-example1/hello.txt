@@ -1,0 +1,11 @@
+Hello, world!
+Today we started the training session with basic introduction, course introduction and git commands.
+
+My name is Vinod and I live in Bangalore.
+I am a software trainer with over 26 years of experience.
+
+git branch b1 --> cerates new branch (doesnt switch)
+git checkout b1 --> switches to existing branch b1 
+git checkout -b b1 --> creates new branch b1 and switches to the same
+git branch --> lists all the available branches
+

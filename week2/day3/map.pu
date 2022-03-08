@@ -1,0 +1,20 @@
+@startuml
+
+interface Map
+
+abstract class AbstractMap
+
+Map <|... AbstractMap
+
+AbstractMap <|--- Hashtable
+AbstractMap <|--- HashMap
+AbstractMap <|--- LinkedHashMap
+AbstractMap <|--- TreeMap
+
+Hashtable <|--- Properties
+
+interface SortedMap
+
+Map <|--- SortedMap
+SortedMap <|... TreeMap
+@enduml

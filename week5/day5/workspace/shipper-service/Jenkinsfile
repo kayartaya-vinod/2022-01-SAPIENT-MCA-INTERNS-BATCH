@@ -1,0 +1,39 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Compile') {
+            steps {
+                sh 'mvn clean compile'
+            }
+        }
+
+        stage('Build') {
+            steps {
+                sh 'mvn -DskipTests=true package'
+            }
+        }
+
+        stage('Containerise') {
+            steps {
+                sh 'docker build -t shipper-service:latest .'
+            }
+        }
+
+        stage('Test server') {
+            steps {
+                sh 'docker run -dp 8888:8080 --name=shipper-service-test -e MYSQL_HOST=mysql-server -e MYSQL_PASSWORD=Welcome#123 --link mysql-server --rm shipper-service:latest'
+                sleep 20
+                sh 'curl http://localhost:8888/api/shippers/1'
+                
+            }
+        }
+    }
+
+    post {
+        always {
+            sh 'docker stop shipper-service-test'
+        }
+    }
+    
+}
